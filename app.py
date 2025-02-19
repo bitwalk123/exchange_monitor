@@ -8,7 +8,6 @@ import pandas as pd
 import yfinance as yf
 from PySide6.QtCore import QTimer
 from PySide6.QtGui import QIcon
-
 from PySide6.QtWidgets import (
     QApplication,
     QMainWindow,
