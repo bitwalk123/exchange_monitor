@@ -18,7 +18,7 @@ from structs.res import AppRes
 from widgets.charts import ChartExchange
 
 
-class DayTrendAnalyzerExchange(QMainWindow):
+class ExchangeMonitor(QMainWindow):
     def __init__(self):
         super().__init__()
         self.ticker = yf.Ticker('USDJPY=X')
@@ -75,7 +75,7 @@ class DayTrendAnalyzerExchange(QMainWindow):
 
 def main():
     app = QApplication()
-    ex = DayTrendAnalyzerExchange()
+    ex = ExchangeMonitor()
     ex.show()
     sys.exit(app.exec())
 

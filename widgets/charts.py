@@ -43,7 +43,7 @@ class ChartExchange(ChartAbstract):
             top=0.9,
             bottom=0.15,
             left=0.185,
-            right=0.995,
+            right=0.99,
             hspace=0,
         )
         self.ax = self.fig.add_subplot(111)
