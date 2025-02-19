@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Exchange Rate
+Name[ja]=為替レート
+Comment=DTA
+Keywords=trading;
+Keywords[ja]=trading;株式;取引;
+Exec=/home/bitwalk/MyProjects/exchange_monitor/app.sh
+Icon=/home/bitwalk/MyProjects/exchange_monitor/images/budget.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Utility;
