@@ -15,9 +15,7 @@ class ChartAbstract(FigureCanvas):
         plt.rcParams['font.family'] = font_prop.get_name()
         plt.rcParams['font.size'] = 14
 
-        # fig = Figure(figsize=(width, height), dpi=dpi)
         self.fig = Figure()
-
         super().__init__(self.fig)
 
     def clearAxes(self):
