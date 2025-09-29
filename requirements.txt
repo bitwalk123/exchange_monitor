@@ -36,12 +36,11 @@ libdnf
 libdnf5
 louis
 mako
-matplotlib
+mplfinance
 mutagen
 netifaces
 nftables
 olefile
-pandas
 paste
 pcp
 perf
