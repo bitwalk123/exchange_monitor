@@ -1,5 +1,5 @@
+PySide6
 mplfinance
 pip-chill
 pip-review
-pyside6
 yfinance
